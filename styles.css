@@ -61,7 +61,7 @@
   border: none;
 }
 .big-text {
-  margin-left: 265px;
+  /* margin-left: 265px; */
   color: #ffffff;
   margin-top: -750px;
   font-family: "Poppins";
@@ -72,7 +72,7 @@
 }
 .small-text {
   margin-top: 0px;
-  margin-left: 265px;
+  /* margin-left: 265px; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -84,7 +84,7 @@
   height: 80px;
   width: 350px;
   margin-top: 0px;
-  margin-left: 265px;
+  /* margin-left: 265px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -101,7 +101,7 @@
   font-weight: 600;
   font-size: 21px;
   line-height: 118.5%;
-  margin-left: 0px;
+  /* margin-left: 0px; */
 }
 .playBtn a {
   color: #090f10;
@@ -212,7 +212,7 @@
   font-weight: 600;
   font-family: "Poppins";
   align-items: center;
-  margin-right: 14px;
+  /* margin-right: 14px; */
 }
 .platform-features-p > button {
   text-decoration: none;
@@ -254,7 +254,7 @@
   grid-template-columns: 35% 35% 35%;
   margin-top: 75px;
   row-gap: 24px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 .onboarding-content-features-wrapper > div {
   display: flex;
@@ -265,11 +265,11 @@
   line-height: 21px;
   text-transform: capitalize;
   color: #231f20;
-  margin-left: 14px;
+  /* margin-left: 14px; */
   align-items: center;
 }
 .onboarding-content-features-wrapper > div > img {
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .onboarding-content-features-wrapper > div > p {
@@ -299,7 +299,7 @@
   margin-top: 50px;
 }
 button > img {
-  margin-left: 14px;
+  /* margin-left: 14px; */
   margin-top: 2px;
 }
 .onboarding-image-and-content-onboarding {
@@ -342,7 +342,7 @@ button > img {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  margin-left: 350px;
+  /* margin-left: 350px; */
   padding-top: 0px;
   margin-bottom: 50px;
 }
@@ -551,7 +551,7 @@ td {
   font-size: 20px;
   line-height: 28px;
   color: #000000;
-  margin-left: 35px;
+  /* margin-left: 35px; */
   margin-top: 35px;
   padding-bottom: 5px;
 }
@@ -562,7 +562,7 @@ td {
   font-size: 20px;
   line-height: 24px;
   color: #fe6409;
-  margin-left: 55px;
+  /* margin-left: 55px; */
 }
 #rakesh-junjunwal-designation {
   /* padding-top: -20px; */
@@ -573,7 +573,7 @@ td {
   font-size: 20px;
   line-height: 28px;
   color: #000000;
-  margin-left: 55px;
+  /* margin-left: 55px; */
 }
 #what-our-customers-say-heading {
   display: flex;
@@ -651,7 +651,7 @@ footer > hr {
 .footer-follow-us {
   display: flex;
   justify-content: space-evenly;
-  margin-right: -170px;
+  /* margin-right: -170px; */
 }
 .rights-reserved-social-media-handles {
   /* display: flex; */
@@ -661,8 +661,8 @@ footer > hr {
 }
 .rights-reserved-social-media-handles {
   justify-content: flex-start;
-  margin-left: 190px;
-  margin-right: 290px;
+  /* margin-left: 190px; */
+  /* margin-right: 290px; */
 }
 
 .grid-container {
@@ -670,10 +670,10 @@ footer > hr {
   grid-template-columns: 30% 40% 30%;
 }
 
-.grid-item-1 {
+/* .grid-item-1 {
   display: flex;
   justify-content: center;
-}
+} */
 
 .scheduleButton {
   display: flex;
@@ -690,7 +690,7 @@ a:hover {
   color: black !important;
 }
 .about-us-big-text {
-  margin-left: 150px;
+  /* margin-left: 150px; */
   color: #ffffff;
   margin-top: -532px;
   font-family: "Poppins";
@@ -701,7 +701,7 @@ a:hover {
 }
 .about-us-small-text {
   margin-top: 0px;
-  margin-left: 160px;
+  /* margin-left: 160px; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -849,7 +849,7 @@ a:hover {
     padding: 4px 10px;
     font-size: 12px;
     font-weight: 500;
-    margin-right: 3.75px;
+    /* margin-right: 3.75px; */
     margin-bottom: 3.75px;
     background-color: #FFD0B4 !important;
     border: none !important;
@@ -863,7 +863,7 @@ a:hover {
     padding: 4px 10px;
     font-size: 12px;
     font-weight: 500;
-    margin-right: 3.75px;
+    /* margin-right: 3.75px; */
     margin-bottom: 3.75px;
     background-color: #FFD0B4 !important;
     /* border: 1px solid #00a5bb; */
@@ -880,4 +880,55 @@ a:hover {
 .modal-footer{
     justify-content: center !important;
 
+}
+.products-column{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.products-column > h6{
+  color: #ED6B35;
+}
+.products-column-wrapper{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+  background-color: #ffd0b4;
+  margin: 16px;
+  border-radius: 6px;
+
+}
+.products-column > label{
+  background: #212121CC;
+}
+
+.inactive {
+  display: none;
+}
+.active{
+  display: grid;
+}
+.selectProduct-consent{
+  display: flex;
+  
+  
+}
+.chip{
+  border:1px solid grey;
+  width: 7rem;margin: 0.2rem; 
+  border-radius: 10px;color: 
+  black;background: #FFD0B4; 
+  display: flex;
+   justify-content: space-around;
+}
+.header-wrapper{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+body{
+  margin: 0 auto !important;
 }
